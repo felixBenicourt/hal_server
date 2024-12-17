@@ -6,7 +6,7 @@
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [example](#example)
+- [Example](#Example)
 - [License](#license)
 
 ## DCC Instance Detector
