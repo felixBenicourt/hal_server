@@ -1,10 +1,38 @@
 # hal_server
 
-Work in progress
-
 ## Table of Contents
 
-- [License](#License)
+- [DCC Instance Detector](#dcc-instance-detector)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [License](#license)
+
+## DCC Instance Detector
+
+This project provides functionality to detect and list running instances of various Digital Content Creation (DCC) software. The supported DCC tools are:
+
+- **Maya**
+- **Houdini**
+- **Unreal Engine**
+- **Blender**
+
+## Features
+
+- Detects running instances of Maya, Houdini, Unreal Engine, and Blender.
+- Lists the Process IDs (PIDs) and names of running instances.
+- Easy integration for detecting instances on a local machine.
+
+## Requirements
+
+- Python 3.x
+- `subprocess` module (standard in Python)
+
+## Installation
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/DCCInstanceDetector.git
 
 
 ## License
