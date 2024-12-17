@@ -6,6 +6,7 @@
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [example](#example)
 - [License](#license)
 
 ## DCC Instance Detector
@@ -23,7 +24,19 @@ This project provides functionality to detect and list running instances of vari
 - Lists the Process IDs (PIDs) and names of running instances.
 - Easy integration for detecting instances on a local machine.
 
-## Usage example
+## Requirements
+
+- Python 3.x
+- `subprocess` module (standard in Python)
+
+## Installation
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/DCCInstanceDetector.git
+   ```
+
+## Example
 ```python
 
 
@@ -62,18 +75,6 @@ Rez command to use it :
 ```bash
 rez env hal_server -- echoInstances
 ```
-
-## Requirements
-
-- Python 3.x
-- `subprocess` module (standard in Python)
-
-## Installation
-
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/yourusername/DCCInstanceDetector.git
-   ```
 
 
 ## License
